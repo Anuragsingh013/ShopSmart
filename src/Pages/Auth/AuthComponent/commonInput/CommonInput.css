@@ -1,0 +1,70 @@
+/* CommonInput.css
+.common-input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .common-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .common-input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+  }
+   */
+   .common-input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .common-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+  }
+  
+  .common-input:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .common-input.error-border {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+  }
+  
